@@ -7,8 +7,7 @@ console.log('Работает App.js (начало)');
   try {
     const result = await GameSavingLoader.load();
     console.log('Загруженный объект:', result);
-  }
-  catch(error) {
+  } catch (error) {
     console.log('Ошибка:', error);
   }
 })();
